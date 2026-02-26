@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Radhika Tekade - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #d9a7c7, #fffcdc);
+            text-align: center;
+        }
+
+        header {
+            background-color: purple;
+            color: white;
+            padding: 30px;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        h1, h2 {
+            margin: 10px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            width: 60%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        footer {
+            background: purple;
+            color: white;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        a {
+            text-decoration: none;
+            color: purple;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Hello, I'm Radhika 👋</h1>
+    <p>Third Year Student | Machine Learning Enthusiast</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am a passionate Computer Science student.
+            I love working on Machine Learning and Web Development projects.
+        </p>
+    </div>
+
+    <h2>My Projects</h2>
+    <div class="card">
+        <h3>Fraud Detection using Machine Learning</h3>
+        <p>Built a fraud detection model using ML algorithms.</p>
+    </div>
+
+    <div class="card">
+        <h3>Smart Attendance System</h3>
+        <p>Face recognition based attendance system using Python & OpenCV.</p>
+    </div>
+
+    <h2>Contact Me</h2>
+    <div class="card">
+        <p>Email: tekaderadhika4@gmail.com</p>
+        <p>LinkedIn: <a href="#">Radhika Tekade</a></p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Radhika Tekade | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
